@@ -1,3 +1,31 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.text1{
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--black, #272727);
+}
+
+.background{
+    background-image: url(./assets//bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.header_filter{
+    border-radius: 2px;
+background: rgba(247, 248, 250, 0.80);
+backdrop-filter: blur(12px);
+}
