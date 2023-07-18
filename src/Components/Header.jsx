@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <div className=''>
-            <div className='background absolute xl:h-[780px] h-[700px] -top-[35px] -z-50 w-full'>
+            <div className='background bg-cover bg-no-repeat absolute xl:h-[780px] h-[700px] -top-[35px] -z-50 w-full'>
 
                 <div className='flex h-full items-center pt-28 justify-center '>
                     <div className='md:w-[730px] sm:mx-0 mx-[20px] w-[365px] h-[371px]  sm:h-[349px] text-[40px] text-center header_filter'>
