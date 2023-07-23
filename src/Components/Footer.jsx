@@ -3,7 +3,7 @@ import footerLogo from '../assets/footer.svg'
 
 const Footer = () => {
     return (
-        <div className='sm:px-[100px] px-[35px] pb-[80px] bg-black mt-[90px]'>
+        <div className='sm:px-[100px] px-[15px] pb-[80px] bg-black mt-[90px]'>
             <div className='mt-[50px]'>
                 <div className='bg-black h-[60px] w-full '>
 
