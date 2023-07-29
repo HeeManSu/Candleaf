@@ -7,6 +7,7 @@ import { BiMinus } from 'react-icons/bi';
 import { IoIosArrowDown } from 'react-icons/io';
 import { BsCart3 } from 'react-icons/bs';
 import Footer from "../Components/Footer"
+import { Link } from 'react-router-dom';
 
 
 const ProductDesc = () => {
@@ -66,8 +67,10 @@ const ProductDesc = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='mt-[30px] max flex justify-end  relative 2xl:right-28 lg:right-0 sm:right-7'>
-                            <button className='flex  justify-center sm:mx-0 mx-auto  items-center text-white bg-[#56b280] text-[20px] py-[10px] 2xl:px-[137px] xl:px-[120px] lg:px-[110px] md:px-[162px] px-[90px]  rounded-lg'> <BsCart3 className='relative right-3' /> <BsPlus /> Add to cart </button>
+                        <div className='mt-[30px] max flex justify-end  relative 2xl:right-28 lg:right-0 sm:right-7'> <Link to="/cart">
+
+
+                            <button className='flex  justify-center sm:mx-0 mx-auto  items-center text-white bg-[#56b280] text-[20px] py-[10px] 2xl:px-[137px] xl:px-[120px] lg:px-[110px] md:px-[162px] px-[90px]  rounded-lg'> <BsCart3 className='relative right-3' /> <BsPlus /> Add to cart </button>         </Link>
                         </div>
                         <div className='mt-[40px] border-2 lg:mx-0 lg:ml-0 sm:ml-[35px] text-[#E6E6E6] 2xl:px-[14px] xl:px-[22px] lg:px-[18px] sm:px-[30px] px-[15px] py-[18px] rounded-lg 2xl:max-w-[68%] lg:max-w-full sm:max-w-[85%]'>
                             <div className='text-[#849a8e] text-[16px]'>
