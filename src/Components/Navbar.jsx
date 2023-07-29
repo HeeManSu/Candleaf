@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
 
 
-    <nav className='py-6 w-full z-50 bg-white border-red-500 border-2'>
+    <nav className='py-6 w-full z-50 bg-white '>
       <div className=' sm:block hidden'>
         <div className='flex justify-around items-center'>
           <div>
