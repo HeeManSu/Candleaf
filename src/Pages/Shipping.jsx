@@ -5,6 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Cart from "../assets/Cart.svg"
 import { LuCircle } from 'react-icons/lu';
 import candle1 from "../assets/candle1.png"
+import { Link } from 'react-router-dom';
 
 
 const Shipping = () => {
@@ -19,7 +20,7 @@ const Shipping = () => {
             </div>
 
 
-            <div className='flex'>
+            <div className='flex lg:mt-[52px] mt-[89px]'>
 
 
 
@@ -96,9 +97,12 @@ const Shipping = () => {
                     </div>
 
                     <div className='pt-[89px] sm:max-w-[65%] sm:mx-auto md:px-16 px-[18px]' >
-                        <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
-                            Pay now
-                        </button>
+                        <Link to="/payment">
+
+
+                            <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
+                                Pay now
+                            </button>         </Link>
                     </div>
                     <div className='pt-[28px] mx-0 md:mx-16 pb-[12px] px-[18px]' >
                         <button className='underline  text-center text-[20px] text-[#56b280]  py-[8px] w-full'>

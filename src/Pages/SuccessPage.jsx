@@ -4,6 +4,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import CheckCircle from "../assets/CheckCircle.svg"
 import greencart from "../assets/greencart.svg"
 import candle1 from "../assets/candle1.png"
+import { Link } from 'react-router-dom';
+
 const SuccessPage = () => {
     return (
 
@@ -11,7 +13,7 @@ const SuccessPage = () => {
             <div className=' '>
                 <Navbar />
             </div>
-            <div className='flex'>
+            <div className='flex lg:mt-[52px] mt-[89px]'>
 
 
 
@@ -63,10 +65,13 @@ const SuccessPage = () => {
                                 Thank you Joe for buying Candleaf. The nature is grateful to you. Now that your order is confirmed it will be ready to ship in 2 days. Please check your inbox in the future for your order updates.
                             </div>
 
-                            <div className='pt-[28px] sm:max-w-[50%] sm:mx-auto sm:mt-[40px] mt-[60px] px-[18px]' >
+                            <div className='pt-[28px] sm:max-w-[50%] sm:mx-auto sm:mt-[40px] mt-[60px] px-[18px]' > <Link to="/">
+
+
+
                                 <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
                                     Back to shopping
-                                </button>
+                                </button> </Link>
                             </div>
                             <div className='pt-[28px] pb-[12px] px-[18px]' >
                                 <button className='underline text-center text-[20px] text-[#56b280]  py-[8px] w-full'>

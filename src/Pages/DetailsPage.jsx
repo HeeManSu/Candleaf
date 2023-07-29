@@ -5,6 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Cart from "../assets/Cart.svg"
 
 import candle1 from "../assets/candle1.png"
+import { Link } from 'react-router-dom';
 
 
 
@@ -17,9 +18,9 @@ const About = () => {
       <div>
         <Navbar />
       </div>
-      <div className='flex'>
+      <div className='flex lg:mt-[52px] mt-[89px]'>
 
-        <div className='lg:w-[45%] px-16 w-full'>
+        <div className='lg:w-[45%] md:px-16 w-full'>
 
 
 
@@ -126,15 +127,15 @@ const About = () => {
               </div>
             </div>
 
-            <div className='pt-[28px] px-[18px]' >
+            <div className='pt-[28px] px-[18px]' ><Link to="/shipping">
               <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
                 Go to shipping
-              </button>
+              </button></Link>
             </div>
 
             <div className='pt-[28px] pb-[12px] px-[18px]' >
               <button className='underline text-center text-[20px] text-[#56b280]  py-[8px] w-full'>
-                Back to cart
+                <Link to="/cart">    Back to cart </Link>
               </button>
             </div>
           </div>

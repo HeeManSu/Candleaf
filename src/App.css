@@ -40,7 +40,34 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-@media screen and (min-width: 768px) {
-    #accordion-collapse-body-1 {
-        display: flex !important;
-    }}
+.dropdown-hidden{
+    visibility: hidden;
+}
+
+.dropdown-hidden:hover{
+    visibility: hidden;
+}
+
+.dropdown{
+    display: flex;
+    max-width: 360px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 28%;
+    /* position: relative;
+    z-index: 1; */
+    /* align-items: flex-start; */
+}
+
+.dropdown-item-header{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1a181e;
+}
+
+.group:hover .header1 > svg {
+  transform: rotate(180deg);
+}

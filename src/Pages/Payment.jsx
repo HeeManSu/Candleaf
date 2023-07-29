@@ -6,6 +6,8 @@ import { BsFillLockFill } from "react-icons/bs";
 import Cart from "../assets/Cart.svg"
 import { LuCircle } from 'react-icons/lu';
 import candle1 from "../assets/candle1.png"
+import { Link } from 'react-router-dom';
+
 
 const Payment = () => {
     return (
@@ -15,7 +17,7 @@ const Payment = () => {
                 <Navbar />
             </div>
 
-            <div className='flex'>
+            <div className='flex lg:mt-[52px] mt-[89px]'>
                 <div className='lg:w-[45%] w-full'>
 
 
@@ -142,14 +144,14 @@ const Payment = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='pt-[28px] md:px-16 px-[18px]' >
+                        <div className='pt-[28px] md:px-16 px-[18px]' > <Link to="/success"> 
                             <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
                                 Pay now
-                            </button>
+                            </button></Link>
                         </div>
                         <div className='pt-[28px] mx-0 md:mx-16 pb-[12px] px-[18px]' >
                             <button className='underline  text-center text-[20px] text-[#56b280]  py-[8px] w-full'>
-                                Back to shipping
+                                <Link to="/shipping">  Back to shipping</Link>
                             </button>
                         </div>
                     </div>

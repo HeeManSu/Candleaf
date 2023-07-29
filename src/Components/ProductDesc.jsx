@@ -52,7 +52,7 @@ const ProductDesc = () => {
                                 <div className='text-[16px] gap-[25px] flex items-center'>
                                     <LuCircle color='#DBDBDB' /> One time purchase
                                 </div>
-                                <div className=' border-2 2xl:max-w-[79%] bg-yellow-300 lg:max-w-full sm:max-w-[94%] border-[#e6e6e6] rounded-lg xl:px-[12px] lg:px-[6px] px-[10px] py-[12px] mt-[30px]'>
+                                <div className=' border-2 2xl:max-w-[79%]  lg:max-w-full sm:max-w-[94%] border-[#e6e6e6] rounded-lg xl:px-[12px] lg:px-[6px] px-[10px] py-[12px] mt-[30px]'>
                                     <div className='text-[16px] gap-4 items-center leading-[16px] flex'>
                                         <LuCircle color='#DBDBDB' width="16px" height="16px" fill='#87D6AC' />  Subscribe for everyday
                                         <div className='border-[#E7E7E7] text-[16px] items-center gap-2 flex px-[5px] rounded-md py-[5px] border-2'>

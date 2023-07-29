@@ -5,6 +5,8 @@ import candle2 from "../assets/candle2.png"
 import { BsPlus } from 'react-icons/bs';
 import { BiMinus } from 'react-icons/bi';
 import Footer from "../Components/Footer"
+import { Link } from 'react-router-dom';
+
 
 const Cart = () => {
     return (
@@ -14,13 +16,13 @@ const Cart = () => {
                 <Navbar />
             </div>
             <div className='2xl:px-[190px] xl:px-[90px] lg:px-[60px] px-[30px]'>
-                <div className='pt-[50px]'>
+                <div className='lg:mt-[116px] mt-[116px]'>
                     <div className='text-[26px] text-center text-[#272727]'>
                         Your cart items
                     </div>
 
                     <div className='text-[#56b280] text-center text-[18px] underline pt-[20px]'>
-                        Back to shopping
+                        <Link to="/">    Back to shopping </Link>
                     </div>
                 </div>
                 <div className='md:block hidden px-[20px] pt-[80px]'>
@@ -61,7 +63,7 @@ const Cart = () => {
                         </div>
 
                         <div>
-                            <button className='bg-[#56B280] rounded-lg px-[60px] py-[8px] text-white text-center text-[21px] '>Checkout</button>
+                            <Link to="/details">  <button className='bg-[#56B280] rounded-lg px-[60px] py-[8px] text-white text-center text-[21px] '>Checkout</button></Link>
                         </div>
                     </div>
 
@@ -98,7 +100,7 @@ const Cart = () => {
                         </div>
 
                         <div className='text-[20px] font-medium'>
-                           Rs.1597 /-
+                            Rs.1597 /-
                         </div>
                     </div>
 
@@ -108,10 +110,12 @@ const Cart = () => {
 
 
                     <div className='pt-[28px]' >
-                        <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
-                            Checkout
-                        </button>
 
+                        <Link to="/details">
+                            <button className='text-white text-center text-[20px] bg-[#56b280] rounded-lg py-[8px] w-full'>
+                                Checkout
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -131,7 +135,7 @@ const Cart = () => {
 export default Cart
 
 
-const SingleCart2 = ({image, price, quantity}) => {
+const SingleCart2 = ({ image, price, quantity }) => {
     return (
         <div>
             <div className='pt-[12px] flex justify-between'>

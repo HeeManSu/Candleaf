@@ -4,9 +4,12 @@ import ProductDesc from '../Components/ProductDesc'
 
 const ProductDescription = () => {
     return (
-        <div>
+        <div className=''>
             <Navbar />
-            <ProductDesc />
+            <div className=' lg:mt-[32px] mt-[40px]'>
+                <ProductDesc />
+            </div>
+         
         </div>
     )
 }
