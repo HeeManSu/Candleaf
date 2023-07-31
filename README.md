@@ -11,13 +11,13 @@ Candleaf is a fully responsive candle selling website theme. Made as part of app
 
 Only following routes are functional. 
 
-- [Home Page](https://candleaftheme.netlify.app/)
-- [Cart Page](https://candleaftheme.netlify.app/cart) 
-- [Details Page](https://candleaftheme.netlify.app/details) 
-- [Shipping Page](https://candleaftheme.netlify.app/shipping)
-- [Payment Page](https://candleaftheme.netlify.app/payment)
-- [Success Page](https://candleaftheme.netlify.app/success)
-- [Product Detail Page](https://candleaftheme.netlify.app/product) 
+- [Home Page](https://candleaf2.netlify.app/)
+- [Cart Page](https://candleaf2.netlify.app/cart) 
+- [Details Page](https://candleaf2.netlify.app/details) 
+- [Shipping Page](https://candleaf2.netlify.app/shipping)
+- [Payment Page](https://candleaf2.netlify.app/payment)
+- [Success Page](https://candleaf2.netlify.app/success)
+- [Product Detail Page](https://candleaf2.netlify.app/product) 
 ## User Flow
 
 
